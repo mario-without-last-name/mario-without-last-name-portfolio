@@ -40,10 +40,8 @@ const Feedbacks = () => {
   return (
     <div className="mt-12 bg-black-100 rounded-[20px]">
       <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
-        <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>Their opinions</p>
-          <h2 className={styles.sectionHeadText}>Testimonials</h2>
-        </motion.div>
+        <p className={styles.sectionSubText}>Their opinions</p>
+        <h2 className={styles.sectionHeadText}>Testimonials</h2>
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-10 flex flex-wrap gap-7`}>
         {testimonials.map((testimonial, index) => (

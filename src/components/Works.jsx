@@ -59,14 +59,12 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>
-          My creations
-        </p>
-        <h2 className={styles.sectionHeadText}>
-          Projects
-        </h2>
-      </motion.div>
+      <p className={styles.sectionSubText}>
+        My creations
+      </p>
+      <h2 className={styles.sectionHeadText}>
+        Projects
+      </h2>
 
       <div className="w-full flex">
         <motion.p
