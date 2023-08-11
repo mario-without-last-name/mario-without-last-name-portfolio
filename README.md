@@ -1,4 +1,4 @@
-# 3D Postfolio
+# 3D Portfolio
 
 A portfolio project to showcase some of my skills on the web.
 
