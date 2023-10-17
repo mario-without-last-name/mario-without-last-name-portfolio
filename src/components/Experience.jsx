@@ -15,7 +15,7 @@ const ExperienceCard = ({ experience }) => (
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
     icon={
-      <div className="flex justify-center items-center w-full h-full">
+      <div className="flex items-center justify-center w-full h-full">
         <img
           src={experience.icon}
           alt={experience.company_name}
@@ -29,7 +29,7 @@ const ExperienceCard = ({ experience }) => (
       <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>{experience.company_name}</p>
     </div>
 
-    <ul className="mt-5 list-disc ml-5 space-y-2">
+    <ul className="mt-5 ml-5 space-y-2 list-disc">
       {experience.points.map((point, index) => (
         <li
           key={`experience-point-${index}`}
@@ -49,10 +49,10 @@ const Experience = () => {
         My professional journey
       </p>
       <h2 className={styles.sectionHeadText}>
-        Work Experience
+        Work and Education
       </h2>
 
-      <div className="mt-5 flex flex-col">
+      <div className="flex flex-col mt-5">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />

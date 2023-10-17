@@ -76,6 +76,7 @@ const Works = () => {
           Here, I unveil a collection of my IT endeavors that highlight both my passion and proficiency.
           From innovative applications to intricate coding challenges, each project reflects my dedication to crafting practical solutions and pushing the boundaries of technology.
           Explore my portfolio and discover the fusion of creativity and technical expertise.
+          See more of my projects on my <b><u><a href="https://github.com/mario-without-last-name?tab=repositories" className="text-blue-500" target="_blank" rel="noopener noreferrer">GitHub page</a></u></b>.
         </motion.p>
       </div>
 

@@ -25,6 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import kumon from "./company/kumon.png";
+import tutor from "./company/tutor.png";
+import prosia from "./company/prosia.png";
+import btb from "./company/btb.png";
+import binus from "./company/binus.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,6 +61,11 @@ export {
   shopify,
   starbucks,
   tesla,
+  kumon,
+  tutor,
+  prosia,
+  btb,
+  binus,
   carrent,
   jobit,
   tripguide,
