@@ -2,6 +2,7 @@ import {
   fullstack,
   graphic,
   teach,
+  game,
   math,
   javascript,
   typescript,
@@ -28,6 +29,23 @@ import {
   jobit,
   tripguide,
   threejs,
+  hagi,
+  cisco,
+  davinci,
+  dbeaver,
+  postgresql,
+  postman,
+  python,
+  unity,
+  photoshop,
+  yulyani,
+  android,
+  c,
+  aws,
+  louie,
+  knightslaststand,
+  visualdesigns,
+  inatrade,
 } from "../assets";
 
 export const navLinks = [
@@ -59,6 +77,10 @@ const services = [
     icon: graphic,
   },
   {
+    title: "Game Developer",
+    icon: game,
+  },
+  {
     title: "Teaching and Tutoring",
     icon: teach,
   },
@@ -66,56 +88,52 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "Python (Deep Learning, etc)",
+    icon: python,
+  },
+  {
+    name: "Unity (Game Development)",
+    icon: unity,
+  },
+  {
+    name: "HTML + CSS + Javascript",
     icon: html,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
+    name: "React JS (PERN stack)",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "C / C++ / C#",
+    icon: c,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "postgreSQL (PERN stack)",
+    icon: postgresql,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Amazon Web Services",
+    icon: aws,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "DaVinci Resolve (Video Editing)",
+    icon: davinci,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Photoshop (Graphic Manipulation)",
+    icon: photoshop,
   },
   {
-    name: "git",
+    name: "GitHub / GitLab",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma (UI/UX Design)",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Android Studio (Mobile Development)",
+    icon: android,
   },
 ];
 
@@ -155,7 +173,7 @@ const experiences = [
     points: [
       "Graduated from the IB High School Diploma Program, with 38/45 points",
       "Subjects: English, Indonesian, Computer Science, Information Technology in a Global Society, Mathematics, Economics",
-      "Conducted Community Service, Mock-Thesis (Extended Essay), Theory of Knowledge",
+      "Part of the Student Council in the arts division. Digitally designing various banners, brochures, yearbooks, tickets, etc",
       "Competed and won in several competitions, especially mathematics and computer science"
     ],
   },
@@ -177,9 +195,12 @@ const experiences = [
     company_name: "Bina Nusantara University",
     icon: binus,
     iconBg: "#383E56",
-    date: "Feb 2025",
+    date: "Sep 2020 - Feb 2025",
     points: [
-      "???",
+      "Bachelors GPA: 3.92 - Masters GPA: 3.99 (current)",
+      "1 scientific journal publication and a thesis in adaptive game design",
+      "Experienced many programming languages: C, Java, Python, SQL, C# (Unity), HTML, etc",
+      "Consistent self-practice (Leetcode) and joining  IT Workshops (UI/UX, Mobile, etc)"
     ],
   },
 ];
@@ -187,92 +208,92 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Mario was of great help to our company during his intership; quickly adapting to any needs and fulfilling clients' requests with creative solutions.",
+    name: "Hagi Agfayuniar",
+    designation: "Web Developer",
+    company: "PROSIA",
+    image: hagi,
   },
   {
     testimonial:
-      "I've never met a math developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Mario is a diligent student who pays attention to detail. With the amount of effort he puts into his work, I believe he will have a succeessful IT career.",
+    name: "Yulyani Arifin",
+    designation: "Lecturer",
+    company: "BINUS university",
+    image: yulyani,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "While Mario can be strict, I know he really cares about me. He has helped me boost my school grades as my tutor for several years.",
+    name: "Louie Liu",
+    designation: "Tutee",
+    company: "My Private Tuition",
+    image: louie,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Knight's Last Stand",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A game prototype that explores how dynamic game balancing systems can automatically adjust the game's difficulty to the player's skill seamlessly in a turn-based survival roguelike.",
     tags: [
       {
-        name: "react",
+        name: "unity",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "gamedesign",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "c-sharp",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: knightslaststand,
+    source_code_link: "https://github.com/mario-without-last-name/Thesis-Game",
+  },
+  {
+    name: "Visual Designs",
+    description:
+      "A collection of many mini-projects I've made from high school until now. Ranging from brochures to websites.",
+    tags: [
+      {
+        name: "photoshop",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ui-ux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: visualdesigns,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "InaTrade",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An industrial-grade web application project I contributed to during my internship, which includes many features for Indonesia's import-export management.",
     tags: [
       {
-        name: "react",
+        name: "react-js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "postgresql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "ui-ux",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    image: inatrade,
     source_code_link: "https://github.com/",
   },
 ];

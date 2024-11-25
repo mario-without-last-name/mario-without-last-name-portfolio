@@ -24,6 +24,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault(); // Don't want to refresh browser when clicking "Send"
+
+    // Check if any of the fields are blank
+    if (!form.name || !form.email || !form.message) {
+      alert("Please fill in all 3 fields before sending the message.");
+      return; // Stop the function from proceeding
+    }
+
     setLoading(true); // show the "Sending..." button text
 
     emailjs.send(
@@ -78,7 +85,8 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              style={{ backgroundColor: '#1d1836' }}
+              className="py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
@@ -89,7 +97,8 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              style={{ backgroundColor: '#1d1836' }}
+              className="py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
@@ -99,18 +108,25 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="What's your message?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+              placeholder="What would you like to discuss with me?"
+              style={{ backgroundColor: '#1d1836' }}
+              className="py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
 
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+            style={{ backgroundColor: '#2d2854' }}
+            className=" py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
           >
             {loading ? 'Sending...' : 'Send'}
           </button>
         </form>
+        <p className="mt-10 text-white font-medium">Alternatively, you can also contact me at:</p>
+        <p className="mt-2 text-secondary text-[17px] max-w-3xl leading-[30px]">
+          &nbsp;&nbsp;&nbsp;(+62) 085 7280 3076 <br/>
+          &nbsp;&nbsp;&nbsp;mario.without.last.name@gmail.com
+        </p>
       </motion.div>
 
       <motion.div

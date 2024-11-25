@@ -16,7 +16,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 450
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
+        style={{ backgroundColor: '#1d1836' }}
+        className="p-5 rounded-2xl sm:w-[300px] w-full"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -74,7 +75,7 @@ const Works = () => {
           Promises and claims alone won&apos;t cut it.
           What better way to prove practical skills than to showcase actual projects?
           Here, I unveil a collection of my IT endeavors that highlight both my passion and proficiency.
-          From innovative applications to intricate coding challenges, each project reflects my dedication to crafting practical solutions and pushing the boundaries of technology.
+          From coding challenges to visual design, each project reflects my dedication to crafting practical ad creative solutions.
           Explore my portfolio and discover the fusion of creativity and technical expertise.
           See more of my projects on my <b><u><a href="https://github.com/mario-without-last-name?tab=repositories" className="text-blue-500" target="_blank" rel="noopener noreferrer">GitHub page</a></u></b>.
         </motion.p>

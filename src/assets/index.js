@@ -3,6 +3,7 @@ import graphic from "./graphic.png";
 import teach from "./teach.png";
 import fullstack from "./fullstack.png";
 import math from "./math.png";
+import game from "./game.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -20,6 +21,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cisco from "./tech/cisco.png";
+import davinci from "./tech/davinci.png";
+import dbeaver from "./tech/dbeaver.png";
+import postgresql from "./tech/postgresql.png";
+import postman from "./tech/postman.svg"
+import python from "./tech/python.png";
+import unity from "./tech/unity.png";
+import photoshop from "./tech/photoshop.png";
+import android from "./tech/android.png";
+import c from "./tech/c.png";
+import aws from "./tech/aws.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -34,11 +46,19 @@ import binus from "./company/binus.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import knightslaststand from "./knightslaststand.png";
+import visualdesigns from "./visualdesigns.png";
+import inatrade from "./inatrade.png";
+
+import hagi from "./hagi.png";
+import yulyani from "./yulyani.png";
+import louie from "./louie.png";
 
 export {
   logo,
   graphic,
   teach,
+  game,
   fullstack,
   math,
   github,
@@ -69,4 +89,21 @@ export {
   carrent,
   jobit,
   tripguide,
+  hagi,
+  cisco,
+  davinci,
+  dbeaver,
+  postgresql,
+  postman,
+  python,
+  unity,
+  photoshop,
+  yulyani,
+  android,
+  c,
+  aws,
+  louie,
+  knightslaststand,
+  visualdesigns,
+  inatrade,
 };

@@ -13,10 +13,22 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I&apos;m <span className="text-[#915eff]">Mario</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>
+            Hi, I&apos;m <span className="text-[#915eff]">Mario</span>
+          </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Mathematical analysis and <br className="sm:block hidden" /> digital designing is my forte
+            Computational analysis and digital designing is my forte. <br/> 
+            I am not afraid to learn new skills.
           </p>
+
+          {/* Button for downloading the resume */}
+          <div className="mt-4 z-10 relative">
+            <a href="https://binusianorg-my.sharepoint.com/personal/mario007_binus_ac_id/_layouts/15/guestaccess.aspx?share=EXqsZcYbRWJEpGz6T4RZ938BIKG_bg02W3hFYooQx-nZ9Q&e=UFR79i" target="_blank" rel="noopener noreferrer">
+              <button className="px-6 py-3 bg-[#915eff] text-white rounded-md hover:bg-[#7a4ed6] transition duration-300">
+                Download my resume
+              </button>
+            </a>
+          </div>
         </div>
       </div>
 
