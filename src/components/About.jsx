@@ -6,7 +6,12 @@ import { styles } from '../styles'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
+
 import mario from '../assets/mario.png';
+import linkedinIcon from '../assets/socialmedialinkedin.png';
+import githubIcon from '../assets/socialmediagithub.png';
+import leetcodeIcon from '../assets/socialmedialeetcode.png';
+import instagramIcon from '../assets/socialmediainstagram.png';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -38,7 +43,7 @@ const About = () => {
         src={mario}
         alt="Mario"
       /> */}
-      <div className="mb-10">
+      <div className="mb-5">
         <motion.img
           src={mario}
           alt="Mario"
@@ -49,7 +54,65 @@ const About = () => {
         />
       </div>
 
-      {/* CHECK ME OUT ON LEETCODE, LINKEDIN, GITHUB, INSTAGRAM */}
+      <p className=" mb-5 text-center text-white text-[17px] sm:text-[20px] md:text-[25px] lg:text-[30px] leading-[30px]">
+          Check me out at:
+      </p>
+
+      {/* Social Media Links */}
+      <div className="flex justify-center gap-5 mb-28">
+        <div className="group relative">
+          <a href="https://www.linkedin.com/in/mario-%E2%A0%80-199467252/" target="_blank" rel="noopener noreferrer">
+            <img 
+              src={linkedinIcon} 
+              alt="LinkedIn" 
+              className="w-[50px] h-[50px] sm:w-[100px] sm:h-[100px] lg:w-[150px] lg:h-[150px] object-contain" 
+            />
+          </a>
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
+            LinkedIn
+          </div>
+        </div>
+
+        <div className="group relative">
+          <a href="https://github.com/mario-without-last-name" target="_blank" rel="noopener noreferrer">
+            <img 
+              src={githubIcon} 
+              alt="GitHub" 
+              className="w-[50px] h-[50px] sm:w-[100px] sm:h-[100px] lg:w-[150px] lg:h-[150px] object-contain" 
+            />
+          </a>
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
+            GitHub
+          </div>
+        </div>
+
+        <div className="group relative">
+          <a href="https://leetcode.com/u/maththemadtick/" target="_blank" rel="noopener noreferrer">
+            <img 
+              src={leetcodeIcon} 
+              alt="LeetCode" 
+              className="w-[50px] h-[50px] sm:w-[100px] sm:h-[100px] lg:w-[150px] lg:h-[150px] object-contain" 
+            />
+          </a>
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
+            LeetCode
+          </div>
+        </div>
+
+        <div className="group relative">
+          <a href="https://www.instagram.com/mario_no_last_name/?igsh=eGhsZnQ0bW84dWNy" target="_blank" rel="noopener noreferrer">
+            <img 
+              src={instagramIcon} 
+              alt="Instagram" 
+              className="w-[50px] h-[50px] sm:w-[100px] sm:h-[100px] lg:w-[150px] lg:h-[150px] object-contain" 
+            />
+          </a>
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
+            Instagram
+          </div>
+        </div>
+      </div>
+
 
       <p className={styles.sectionSubText}>So who am I?</p>
       <h2 className={styles.sectionHeadText}>Overview</h2>

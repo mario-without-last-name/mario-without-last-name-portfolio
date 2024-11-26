@@ -125,7 +125,7 @@ const technologies = [
     icon: photoshop,
   },
   {
-    name: "GitHub / GitLab",
+    name: "Git (GitHub and GitLab)",
     icon: git,
   },
   {
@@ -274,7 +274,7 @@ const projects = [
       },
     ],
     image: visualdesigns,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/mario-without-last-name/collection-of-self-made-arts",
   },
   {
     name: "InaTrade",
@@ -316,7 +316,7 @@ const projects = [
       },
     ],
     image: computervision,
-    source_code_link: "https://inatrade.kemendag.go.id/",
+    source_code_link: "https://github.com/mario-without-last-name/computer-vision-group-project",
   },
 ];
 

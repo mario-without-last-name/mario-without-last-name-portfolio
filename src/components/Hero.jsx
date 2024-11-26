@@ -23,7 +23,7 @@ const Hero = () => {
 
           {/* Button for downloading the resume */}
           <div className="mt-4 z-10 relative">
-            <a href="https://binusianorg-my.sharepoint.com/personal/mario007_binus_ac_id/_layouts/15/guestaccess.aspx?share=EXqsZcYbRWJEpGz6T4RZ938BIKG_bg02W3hFYooQx-nZ9Q&e=UFR79i" target="_blank" rel="noopener noreferrer">
+            <a href="https://binusianorg-my.sharepoint.com/personal/mario007_binus_ac_id/_layouts/15/guestaccess.aspx?share=EZPdrFSdzlFAvLB9-IOw6nwBmDR5iarSJuadKX7HDboIYw&e=uMZLw0" target="_blank" rel="noopener noreferrer">
               <button className="px-6 py-3 bg-[#915eff] text-white rounded-md hover:bg-[#7a4ed6] transition duration-300">
                 Download my resume
               </button>
