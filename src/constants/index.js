@@ -300,7 +300,7 @@ const projects = [
   {
     name: "Who Is This?",
     description:
-      "A class group project that trains an AI to identify and recognize the identity of faces detected through a video.",
+      "A class group project that trains an AI to identify and recognize the identity of faces detected through a live video footage.",
     tags: [
       {
         name: "computervision",
