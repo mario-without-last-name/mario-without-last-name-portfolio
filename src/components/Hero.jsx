@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
 
           <p className={`block md:hidden mt-4 text-secondary text-[12px]`}>
-            (It is recommended to view this website on a larger device)
+            (It is recommended to view this website on a larger device to prevent faulty visuals)
           </p>
         </div>
       </div>

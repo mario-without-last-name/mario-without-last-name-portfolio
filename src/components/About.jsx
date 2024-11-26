@@ -16,8 +16,9 @@ import instagramIcon from '../assets/socialmediainstagram.png';
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
-      <motion.div
-        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+      {/* <motion.div
+        variants={fadeIn("right", "spring", 0.5 * index, 0.75)} */}
+      <div
         className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
       >
         <div
@@ -31,7 +32,8 @@ const ServiceCard = ({ index, title, icon }) => {
           <img src={icon} alt={title} className='w-32 h-32 object-contain' />
           <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
         </div>
-      </motion.div>
+      </div>
+      {/* </motion.div> */}
     </Tilt>
   )
 }
@@ -117,8 +119,10 @@ const About = () => {
       <p className={styles.sectionSubText}>So who am I?</p>
       <h2 className={styles.sectionHeadText}>Overview</h2>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+      <div className="w-full flex">
+      {/* <motion.p
+        variants={fadeIn("", "", 0.1, 1)} */}
+      <p
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I am a versatile and driven individual with a passion for excellence in <b><u>mathematics</u></b>, <b><u>programming</u></b>, <b><u>creative design</u></b>,  <b><u>game development</u></b>, and <b><u>teaching</u></b>.
@@ -129,8 +133,9 @@ const About = () => {
         My creative flair extends to 2D asset manipulation, adding a visually engaging touch to projects.
         Sharing knowledge is a strnegth of mine; I take pride in mentoring and teaching subjects like mathematics and computer science to aspiring minds.
         Finally, I challenged myself and went for a video game research for my thesis, understanding the nuances in game design along the way. 
-        
-      </motion.p>
+      </p>
+      {/* </motion.p> */}
+      </div>
 
       <div className="mt-10 flex flex-wrap gap-10">
         {services.map((service, index) => (

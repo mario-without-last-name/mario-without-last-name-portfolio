@@ -9,7 +9,8 @@ import { fadeIn, textVariant } from "../utils/motion"
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    // <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div>
       <Tilt
         options={{
           max: 45,
@@ -53,7 +54,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </div>
+    // </motion.div>
   )
 }
 
@@ -68,8 +70,9 @@ const Works = () => {
       </h2>
 
       <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+        {/* <motion.p
+          variants={fadeIn("", "", 0.1, 1)} */}
+        <p
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Promises and claims alone won&apos;t cut it.
@@ -78,7 +81,8 @@ const Works = () => {
           From coding challenges to visual design, each project reflects my dedication to crafting practical and creative solutions.
           Explore my portfolio and discover the fusion of creativity and technical expertise.
           See more of my projects on my <b><u><a href="https://github.com/mario-without-last-name?tab=repositories" className="text-blue-500" target="_blank" rel="noopener noreferrer">GitHub page</a></u></b>.
-        </motion.p>
+        </p>
+        {/* </motion.p> */}
       </div>
 
       <div className="mt-10 flex flex-wrap gap-7">
