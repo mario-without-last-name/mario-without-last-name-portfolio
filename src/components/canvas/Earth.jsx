@@ -4,8 +4,25 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
+import { useState, useEffect } from "react"; // chatgpt
+
 const Earth = () => {
   const earth = useGLTF("./planet/scene.gltf");
+
+  // chatgpt
+  const [scale, setScale] = useState(2.5);
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setScale(1.5); // Smaller scale for narrower screens
+      } else {
+        setScale(2.5); // Normal scale for wider screens
+      }
+    };
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Set initial scale
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <primitive object={earth.scene}
@@ -28,6 +45,7 @@ const EarthCanvas = () => {
         far: 200,
         position: [-4, 3, 6],
       }}
+      resize={{ scroll: true, debounce: { scroll: 50, resize: 100 } }} // chatgpt Responsive resizing
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
@@ -35,6 +53,7 @@ const EarthCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
+          onUpdate={(self) => self.update()} // chatgpt
         />
         <Earth />
 

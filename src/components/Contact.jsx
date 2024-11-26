@@ -75,7 +75,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="mt-8 flex flex-col gap-7"
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
@@ -104,7 +104,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
-              rows="7"
+              rows="4"
               name="message"
               value={form.message}
               onChange={handleChange}
@@ -122,7 +122,7 @@ const Contact = () => {
             {loading ? 'Sending...' : 'Send'}
           </button>
         </form>
-        <p className="mt-10 text-white font-medium">Alternatively, you can also contact me at:</p>
+        <p className="mt-10 text-white font-medium">Alternatively, you can contact me at:</p>
         <p className="mt-2 text-secondary text-[17px] max-w-3xl leading-[30px]">
           &nbsp;&nbsp;&nbsp;(+62) 085 7280 3076 <br/>
           &nbsp;&nbsp;&nbsp;mario.without.last.name@gmail.com
@@ -131,7 +131,8 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        // className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] canvas-container' // chatgpt
       >
         <EarthCanvas />
       </motion.div>
