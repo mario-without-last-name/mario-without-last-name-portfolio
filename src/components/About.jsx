@@ -38,7 +38,7 @@ const About = () => {
         src={mario}
         alt="Mario"
       /> */}
-      <div className="mt-10 mb-10">
+      <div className="mb-10">
         <motion.img
           src={mario}
           alt="Mario"
@@ -48,6 +48,8 @@ const About = () => {
           className="mx-auto h-[15rem] sm:h-[25rem] md:h-[30rem] lg:h-[40rem] xl:h-[50rem] object-contain" // Responsive height classes
         />
       </div>
+
+      {/* CHECK ME OUT ON LEETCODE, LINKEDIN, GITHUB, INSTAGRAM */}
 
       <p className={styles.sectionSubText}>So who am I?</p>
       <h2 className={styles.sectionHeadText}>Overview</h2>

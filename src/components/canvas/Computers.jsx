@@ -33,7 +33,7 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => { // change the isMobile variable, depending if the screen width is <= or > 500x
-    const mediaQuery = window.matchMedia('(max-width: 500px)'); // Add a listener for changes to the screen size
+    const mediaQuery = window.matchMedia('(max-width: 640px)'); // Add a listener for changes to the screen size
 
     setIsMobile(mediaQuery.matches) // Set the initial value of the 'isMobile' state variable
 
@@ -50,25 +50,57 @@ const ComputersCanvas = () => {
   }, [])
 
   return (
-    <Canvas
-      frameloop="demand"
-      shadows
-      camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
-    >
-      <Suspense fallback={<CanvasLoader />}> {/*<Suspense> */}
-        <OrbitControls
-          autoRotate
-          enableZoom={false}
-          maxPolarAngle={Math.PI / 2} //Can only be roteted around the y-axis, I think?
-          minPolarAngle={Math.PI / 2}
+    // <div className="relative">
+      <Canvas
+        className="z-0"
+        // frameloop="demand"
+        shadows
+        camera={{ position: [20, 3, 5], fov: 25 }}
+        gl={{ preserveDrawingBuffer: true }}
+      >
+        <Suspense fallback={<CanvasLoader />}>
+          <OrbitControls
+            autoRotate
+            enableRotate={false}  // Disables manual rotation
+            enableZoom={false}    // Disables zooming
+            maxPolarAngle={Math.PI / 2} //Can only be roteted around the y-axis, I think?
+            minPolarAngle={Math.PI / 2}
         />
-        <Computers isMobile={isMobile} />
-      </Suspense>
 
-      <Preload all />
-    </Canvas>
+        {/* Conditionally render Computers based on isMobile */}
+        {!isMobile && <Computers isMobile={isMobile} />}
+        </Suspense>
+
+        <Preload all />
+      </Canvas>
+    // </div>
   )
+
+  // if (isMobile) return null;
+
+  // return (
+  //   <Canvas
+  //     // frameloop="demand"
+  //     shadows
+  //     camera={{ position: [20, 3, 5], fov: 25 }}
+  //     gl={{ preserveDrawingBuffer: true }}
+  //   >
+  //     <Suspense fallback={<CanvasLoader />}>
+  //       <OrbitControls
+  //         autoRotate
+  //         enableRotate={false}  // Disables manual rotation
+  //         enableZoom={false}    // Disables zooming
+  //         maxPolarAngle={Math.PI / 2} //Can only be roteted around the y-axis, I think?
+  //         minPolarAngle={Math.PI / 2}
+  //     />
+
+  //     {/* Conditionally render Computers based on isMobile */}
+  //     {!isMobile && <Computers isMobile={isMobile} />}
+  //     </Suspense>
+
+  //     <Preload all />
+  //   </Canvas>
+  // )
 }
 
 export default ComputersCanvas;

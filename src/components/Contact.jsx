@@ -123,9 +123,9 @@ const Contact = () => {
           </button>
         </form>
         <p className="mt-10 text-white font-medium">Alternatively, you can contact me at:</p>
-        <p className="mt-2 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          &nbsp;&nbsp;&nbsp;(+62) 085 7280 3076 <br/>
-          &nbsp;&nbsp;&nbsp;mario.without.last.name@gmail.com
+        <p className="mt-2 ml-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+          (+62) 085 7280 3076 <br/>
+          <span className="block sm:inline-block">mario.without.last.name</span><span className="block sm:inline-block">@gmail.com</span>
         </p>
       </motion.div>
 

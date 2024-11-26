@@ -209,3 +209,8 @@
   overflow: hidden;
   position: relative;
 }
+
+/* chatgpt */
+.canvas-touch-scroll {
+  touch-action: pan-y; /* Allow vertical scrolling on mobile */
+}

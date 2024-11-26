@@ -49,6 +49,7 @@ import tripguide from "./tripguide.png";
 import knightslaststand from "./knightslaststand.png";
 import visualdesigns from "./visualdesigns.png";
 import inatrade from "./inatrade.png";
+import computervision from "./computervision.png";
 
 import hagi from "./hagi.png";
 import yulyani from "./yulyani.png";
@@ -106,4 +107,5 @@ export {
   knightslaststand,
   visualdesigns,
   inatrade,
+  computervision
 };

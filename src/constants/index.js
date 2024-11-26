@@ -46,6 +46,7 @@ import {
   knightslaststand,
   visualdesigns,
   inatrade,
+  computervision,
 } from "../assets";
 
 export const navLinks = [
@@ -294,7 +295,28 @@ const projects = [
       },
     ],
     image: inatrade,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://inatrade.kemendag.go.id/",
+  },
+  {
+    name: "Who Is This?",
+    description:
+      "A class group project that trains an AI to identify and recognize the identity of faces detected through a video.",
+    tags: [
+      {
+        name: "computervision",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "machinelearning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jupyter",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: computervision,
+    source_code_link: "https://inatrade.kemendag.go.id/",
   },
 ];
 
