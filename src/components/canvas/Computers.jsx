@@ -49,6 +49,10 @@ const ComputersCanvas = () => {
 
   }, [])
 
+  if (isMobile) {
+    return null; // Return null to prevent rendering the Canvas
+  }
+
   return (
     // <div className="relative">
       <Canvas
@@ -68,7 +72,7 @@ const ComputersCanvas = () => {
         />
 
         {/* Conditionally render Computers based on isMobile */}
-        {!isMobile && <Computers isMobile={isMobile} />}
+        <Computers isMobile={isMobile} />
         </Suspense>
 
         <Preload all />

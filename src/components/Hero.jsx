@@ -29,6 +29,10 @@ const Hero = () => {
               </button>
             </a>
           </div>
+
+          <p className={`block md:hidden mt-4 text-secondary text-[12px]`}>
+            (It is recommended to view this website on a larger device)
+          </p>
         </div>
       </div>
       
