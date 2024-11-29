@@ -54,6 +54,7 @@ import computervision from "./computervision.png";
 import hagi from "./hagi.png";
 import yulyani from "./yulyani.png";
 import louie from "./louie.png";
+import ahmad from "./ahmad.png";
 
 export {
   logo,
@@ -107,5 +108,6 @@ export {
   knightslaststand,
   visualdesigns,
   inatrade,
-  computervision
+  computervision,
+  ahmad,
 };

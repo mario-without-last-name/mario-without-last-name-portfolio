@@ -36,6 +36,21 @@ const ExperienceCard = ({ experience }) => (
           className="text-white-100 text-[14px] pl-1 tracking-wider"
         >
           {point}
+
+
+          {/* Special: add a text for Inatrade link */}
+          {point === "Assisted in developing the FrontEnd and BackEnd of a web application project: " && (
+            <a 
+              href="https://inatrade.kemendag.go.id/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-500"
+            >
+              <u>Inatrade</u>
+            </a>
+          )}
+
+
         </li>
       ))}
     </ul>

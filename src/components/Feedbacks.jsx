@@ -14,7 +14,26 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
     <p className="text-white font-black text-[48px]">&quot;</p>
 
     <div className="mt-1">
-      <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+      <p className="text-white tracking-wider text-[18px]">
+        {testimonial}
+
+
+        {/* Special: add a text for Ahmad's Youtube Channel link */}
+        {name === "Ahmad Hijazi" && (
+          <p>
+            <a 
+              href="https://www.youtube.com/@MadnessMenace" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-500"
+            >
+              <u>YouTube channel</u>
+            </a>.
+          </p>
+        )}
+
+
+      </p>
 
       <div className="mt-7 flex justify-between items-center gap-1">
         <div className="flex-1 flex flex-col">

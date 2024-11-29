@@ -47,6 +47,7 @@ import {
   visualdesigns,
   inatrade,
   computervision,
+  ahmad,
 } from "../assets";
 
 export const navLinks = [
@@ -170,7 +171,7 @@ const experiences = [
     company_name: "Bina Tunas Bangsa International School",
     icon: btb,
     iconBg: "#383E56",
-    date: "Jun 2020",
+    date: "Jul 2008 - Jun 2020",
     points: [
       "Graduated from the IB High School Diploma Program, with 38/45 points",
       "Subjects: English, Indonesian, Computer Science, Information Technology in a Global Society, Mathematics, Economics",
@@ -185,7 +186,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Feb 2023 - Aug 2023",
     points: [
-      "Assisted in developing the FrontEnd and BackEnd of a web application project: InaTrade",
+      "Assisted in developing the FrontEnd and BackEnd of a web application project: ",
       "Contributed in troubleshooting bugs, creating documentation, and communicating with clients",
       "Learnt how to manipulate databases, design UI/UX, generate reports, and more",
       "Completed several side projects to further leverage my IT skills"
@@ -209,7 +210,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Mario was of great help to our company during his intership; quickly adapting to any needs and fulfilling clients' requests with creative solutions.",
+      "Mario was of great help to our company during his intership; quickly adapting to any needs and fulfilling clients' requests with interesting solutions.",
     name: "Hagi Agfayuniar",
     designation: "Web Developer",
     company: "PROSIA",
@@ -230,6 +231,14 @@ const testimonials = [
     designation: "Tutee",
     company: "My Private Tuition",
     image: louie,
+  },
+  {
+    testimonial:
+      "Mario is a creative mind that is capable of relaying his creativity through graphic design. He created captivating thumbnails and overlays that helped bolster retention on my ",
+    name: "Ahmad Hijazi",
+    designation: "Content Creator",
+    company: "Youtube",
+    image: ahmad,
   },
 ];
 
@@ -258,7 +267,7 @@ const projects = [
   {
     name: "Visual Designs",
     description:
-      "A collection of many mini-projects I've made from high school until now. Ranging from brochures to websites.",
+      "A collection of many mini-projects I've made from high school until now. Ranging from Youtube thumbnails to websites.",
     tags: [
       {
         name: "photoshop",
