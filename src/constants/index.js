@@ -329,4 +329,6 @@ const projects = [
   },
 ];
 
+// For the social medias (LinkedIn, Github, Leetcode, Instagram), check About.jsx
+
 export { services, technologies, experiences, testimonials, projects };

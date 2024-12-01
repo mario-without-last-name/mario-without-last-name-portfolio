@@ -63,7 +63,7 @@ const About = () => {
       {/* Social Media Links */}
       <div className="flex justify-center gap-5 mb-28">
         <div className="group relative">
-          <a href="https://www.linkedin.com/in/mario-%E2%A0%80-199467252/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/mario-without-last-name/" target="_blank" rel="noopener noreferrer">
             <img 
               src={linkedinIcon} 
               alt="LinkedIn" 
@@ -89,7 +89,7 @@ const About = () => {
         </div>
 
         <div className="group relative">
-          <a href="https://leetcode.com/u/maththemadtick/" target="_blank" rel="noopener noreferrer">
+          <a href="https://leetcode.com/u/mario-without-last-name/" target="_blank" rel="noopener noreferrer">
             <img 
               src={leetcodeIcon} 
               alt="LeetCode" 

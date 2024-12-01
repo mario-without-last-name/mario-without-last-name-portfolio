@@ -72,7 +72,7 @@ const BallCanvas = ({ icon }) => {
   if (isMobile) {
     // Render a 2D image when screen width is <= 640px
     return (
-      <img src={icon} alt="icon" className="w-full h-auto" />
+      <img src={icon} alt="tech icon" className="w-full h-auto" />
     );
   }
 

@@ -50,7 +50,7 @@ const ComputersCanvas = () => {
   }, [])
 
   if (isMobile) {
-    return null; // Return null to prevent rendering the Canvas
+    return null; // Return null to prevent rendering the Canvas on mobile devices
   }
 
   return (
