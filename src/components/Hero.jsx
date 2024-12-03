@@ -7,7 +7,7 @@ import downloadIcon from "../assets/download.png"
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-[375px] sm:h-screen mx-auto">
+    <section className="relative w-full h-[375px] sm:h-screen max-h-[1250px] mx-auto">
       <div className={`${styles.paddingX} z-10 absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
@@ -16,18 +16,20 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I&apos;m <span className="text-[#915eff]">Mario</span>
+            <span className="hidden sm:inline">Hi, </span> I&apos;m <span className="text-[#915eff]">Mario</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Computational analysis and digital designing is my forte. <br/> 
+            Computational analysis and digital designing is my forte. <br /> 
             I am not afraid to learn new skills.
           </p>
 
           {/* Button for downloading the resume */}
           <div className="mt-4 z-10 relative">
             <a href="https://binusianorg-my.sharepoint.com/personal/mario007_binus_ac_id/_layouts/15/guestaccess.aspx?share=EZPdrFSdzlFAvLB9-IOw6nwBmDR5iarSJuadKX7HDboIYw&e=uMZLw0" target="_blank" rel="noopener noreferrer">
-            <button className="px-6 py-3 bg-[#915eff] text-white rounded-md hover:bg-[#7a4ed6] transition duration-300 flex items-center">
-                <img src={downloadIcon} alt="" className="w-5 h-5 mr-2"/> Download my resume
+              <button className="px-6 py-3 bg-[#915eff] text-white rounded-md hover:bg-[#7a4ed6] transition duration-300 flex items-center">
+                <img src={downloadIcon} alt="" className="w-5 h-5 mr-2"/> 
+                <span className="hidden sm:inline">Download my resume</span>
+                <span className="inline sm:hidden">My resume</span>
               </button>
             </a>
           </div>

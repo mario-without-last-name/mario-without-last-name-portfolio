@@ -52,7 +52,7 @@ const About = () => {
           variants={fadeIn("", "", 0.2, 3)} // Adjust direction, easing, delay, duration as needed
           initial="hidden"
           animate="show"
-          className="mx-auto h-[15rem] sm:h-[25rem] md:h-[30rem] lg:h-[40rem] xl:h-[50rem] object-contain" // Responsive height classes
+          className="mx-auto h-[15rem] sm:h-[25rem] md:h-[30rem] lg:h-[35rem] xl:h-[40rem] object-contain" // Responsive height classes
         />
       </div>
 
