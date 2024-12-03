@@ -207,10 +207,11 @@ const experiences = [
   },
 ];
 
+// no full stops at the end, as seen in Feedback.jsx
 const testimonials = [
   {
     testimonial:
-      "Mario was of great help to our company during his intership; quickly adapting to any needs and fulfilling clients' requests with interesting solutions.",
+      "Mario was of great help to our company during his intership; quickly adapting to any needs and fulfilling clients' requests with interesting solutions",
     name: "Hagi Agfayuniar",
     designation: "Web Developer",
     company: "PROSIA",
@@ -218,7 +219,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Mario is a diligent student who pays attention to detail. With the amount of effort he puts into his work, I believe he will have a succeessful IT career.",
+      "Mario is a diligent student who pays attention to detail. With the amount of effort he puts into his work, I believe he will have a succeessful IT career",
     name: "Yulyani Arifin",
     designation: "Lecturer",
     company: "BINUS university",
@@ -226,7 +227,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "While Mario can be strict, I know he really cares about me. He has helped me boost my school grades as my tutor for several years.",
+      "While Mario can be strict, I know he really cares about me. He has helped me boost my school grades as my tutor for several years",
     name: "Louie Liu",
     designation: "Tutee",
     company: "My Private Tuition",
@@ -234,7 +235,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Mario is a creative mind that is capable of relaying his creativity through graphic design. He created captivating thumbnails and overlays that helped bolster retention on my ",
+      "Mario is a creative mind that is capable of relaying his creativity through graphic design. He created captivating thumbnails and overlays that helped bolster retention on my ", // Youtube channel (in feedback.jsx)
     name: "Ahmad Hijazi",
     designation: "Content Creator",
     company: "Youtube",
