@@ -20,19 +20,16 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
 
         {/* Special: add a text for Ahmad's Youtube Channel link */}
         {name === "Ahmad Hijazi" && (
-          <p>
-            <a 
-              href="https://www.youtube.com/@MadnessMenace" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-blue-500"
-            >
-              <u>YouTube channel</u>
-            </a>.
-          </p>
+          <a 
+            href="https://www.youtube.com/@MadnessMenace" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-500"
+          >
+            <u>YouTube channel</u>
+          </a>
         )}
-
-
+      .
       </p>
 
       <div className="mt-7 flex justify-between items-center gap-1">
