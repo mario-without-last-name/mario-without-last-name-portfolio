@@ -11,6 +11,7 @@ import mario from '../assets/mario.png';
 import linkedinIcon from '../assets/socialmedialinkedin.png';
 import githubIcon from '../assets/socialmediagithub.png';
 import leetcodeIcon from '../assets/socialmedialeetcode.png';
+import youtubeIcon from '../assets/socialmediayoutube.png';
 import instagramIcon from '../assets/socialmediainstagram.png';
 
 const ServiceCard = ({ index, title, icon }) => {
@@ -52,7 +53,7 @@ const About = () => {
           variants={fadeIn("", "", 0.2, 3)} // Adjust direction, easing, delay, duration as needed
           initial="hidden"
           animate="show"
-          className="mx-auto h-[15rem] sm:h-[25rem] md:h-[30rem] lg:h-[35rem] xl:h-[40rem] object-contain" // Responsive height classes
+          className="mx-auto h-[15rem] sm:h-[25rem] md:h-[30rem] lg:h-[35rem] object-contain" // Responsive height classes
         />
       </div>
 
@@ -61,13 +62,13 @@ const About = () => {
       </p>
 
       {/* Social Media Links */}
-      <div className="flex justify-center gap-5 mb-28">
+      <div className="flex justify-center gap-2 sm:gap-5 mb-28">
         <div className="group relative">
           <a href="https://www.linkedin.com/in/mario-without-last-name/" target="_blank" rel="noopener noreferrer">
             <img 
               src={linkedinIcon} 
               alt="LinkedIn" 
-              className="w-[50px] h-[50px] sm:w-[100px] sm:h-[100px] lg:w-[150px] lg:h-[150px] object-contain" 
+              className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
             />
           </a>
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
@@ -80,7 +81,7 @@ const About = () => {
             <img 
               src={githubIcon} 
               alt="GitHub" 
-              className="w-[50px] h-[50px] sm:w-[100px] sm:h-[100px] lg:w-[150px] lg:h-[150px] object-contain" 
+              className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
             />
           </a>
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
@@ -93,7 +94,7 @@ const About = () => {
             <img 
               src={leetcodeIcon} 
               alt="LeetCode" 
-              className="w-[50px] h-[50px] sm:w-[100px] sm:h-[100px] lg:w-[150px] lg:h-[150px] object-contain" 
+              className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
             />
           </a>
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
@@ -102,18 +103,34 @@ const About = () => {
         </div>
 
         <div className="group relative">
+          <a href="https://www.youtube.com/@mariomario2728" target="_blank" rel="noopener noreferrer">
+            <img 
+              src={youtubeIcon} 
+              alt="Youtube" 
+              className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
+            />
+          </a>
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
+            Youtube
+          </div>
+        </div>
+
+        <div className="group relative">
           <a href="https://www.instagram.com/mario_no_last_name/?igsh=eGhsZnQ0bW84dWNy" target="_blank" rel="noopener noreferrer">
             <img 
               src={instagramIcon} 
               alt="Instagram" 
-              className="w-[50px] h-[50px] sm:w-[100px] sm:h-[100px] lg:w-[150px] lg:h-[150px] object-contain" 
+              className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
             />
           </a>
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
             Instagram
           </div>
         </div>
+
       </div>
+
+
 
 
       <p className={styles.sectionSubText}>So who am I?</p>
