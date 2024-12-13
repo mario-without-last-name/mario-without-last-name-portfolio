@@ -127,7 +127,7 @@ const Contact = () => {
           <span className="hidden sm:block">Alternatively, you can contact me at:</span>
         </p>
         <p className="mt-2 ml-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          (+62) 085 7280 3076 <br/>
+          (+62) 857 7280 3076 <br/>
         </p>
         <p className="mt-2 ml-3 text-secondary text-[17px] max-w-3xl leading-[20px]">
           <span className="block sm:inline-block">mario.without.last.name</span><span className="block sm:inline-block">@gmail.com</span>
