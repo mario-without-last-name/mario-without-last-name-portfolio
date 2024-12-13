@@ -1,6 +1,7 @@
 # 3D Portfolio
 
-A portfolio project to showcase some of my skills on the web.
+My official portfolio project to showcase some of my skills on the web.
+It's the one I use when applying for jobs.
 
 Project made by Mario.
 
@@ -15,4 +16,8 @@ Some screenshots:
 ![Part 5 of the project's screenshots](./screenshot5.PNG)
 ![Part 6 of the project's screenshots](./screenshot6.PNG)
 ![Part 7 of the project's screenshots](./screenshot7.PNG)
-![Part 7 of the project's screenshots](./screenshot8.PNG)
+![Part 8 of the project's screenshots](./screenshot8.PNG)
+
+Works on mobile too:
+
+![Part 9 of the project's screenshots](./screenshot9.PNG)

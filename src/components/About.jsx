@@ -46,14 +46,14 @@ const About = () => {
         src={mario}
         alt="Mario"
       /> */}
-      <div className="mb-5">
+      <div className="mb-0">
         <motion.img
           src={mario}
           alt="Mario"
           variants={fadeIn("", "", 0.2, 3)} // Adjust direction, easing, delay, duration as needed
           initial="hidden"
           animate="show"
-          className="mx-auto h-[15rem] sm:h-[25rem] md:h-[30rem] lg:h-[35rem] object-contain" // Responsive height classes
+          className="mx-auto h-[20rem] sm:h-[30rem] md:h-[35rem] lg:h-[40rem] object-contain" // Responsive height classes
         />
       </div>
 
