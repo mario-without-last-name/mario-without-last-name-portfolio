@@ -32,6 +32,8 @@ import photoshop from "./tech/photoshop.png";
 import android from "./tech/android.png";
 import c from "./tech/c.png";
 import aws from "./tech/aws.png";
+import flutter from "./tech/flutter.png";
+import sap from "./tech/sap.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -42,6 +44,7 @@ import tutor from "./company/tutor.png";
 import prosia from "./company/prosia.png";
 import btb from "./company/btb.png";
 import binus from "./company/binus.png";
+import eoutsourceasia from "./company/eoutsourceasia.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -110,4 +113,7 @@ export {
   inatrade,
   computervision,
   ahmad,
+  eoutsourceasia,
+  flutter,
+  sap,
 };

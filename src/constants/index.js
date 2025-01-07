@@ -48,6 +48,9 @@ import {
   inatrade,
   computervision,
   ahmad,
+  eoutsourceasia,
+  flutter,
+  sap,
 } from "../assets";
 
 export const navLinks = [
@@ -98,6 +101,10 @@ const technologies = [
     icon: unity,
   },
   {
+    name: "C / C++ / C# / GoLang",
+    icon: c,
+  },
+  {
     name: "HTML + CSS + Javascript",
     icon: html,
   },
@@ -106,16 +113,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "C / C++ / C#",
-    icon: c,
-  },
-  {
     name: "postgreSQL (PERN stack)",
     icon: postgresql,
   },
   {
-    name: "Amazon Web Services",
-    icon: aws,
+    name: "SAP",
+    icon: sap,
   },
   {
     name: "DaVinci Resolve (Video Editing)",
@@ -134,36 +137,46 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "Android Studio (Mobile Development)",
-    icon: android,
+    name: "Flutter (Mobile Development)",
+    icon: flutter,
   },
 ];
 
 const experiences = [
   {
-    title: "Math Tuition Teacher",
-    company_name: "Kumon",
-    icon: kumon,
+    title: "IT Consultant Trainee",
+    company_name: "E-Outsource Asia",
+    icon: eoutsourceasia,
     iconBg: "#383E56",
-    date: "Jul 2016 - Jun 2017",
+    date: "Jan 2025 - Present",
     points: [
-      "Understood high school and even university level mathematics at only middle school",
-      "Worked with various students and other teachers, both younger and older than me",
-      "Utilized strategies to simplify and explain complex math problems",
-      "Practiced time management between being a student and a teacher"
+      "A new hire. Quickly learning the skills required to be an IT consultant"
     ],
   },
   {
-    title: "Private Tuition Teacher",
-    company_name: "Self-Employed",
-    icon: tutor,
-    iconBg: "#E6DEDD",
-    date: "Sep 2018 - Present",
+    title: "Master of Information Technology",
+    company_name: "Bina Nusantara University",
+    icon: binus,
+    iconBg: "#383E56",
+    date: "Sep 2020 - Feb 2025",
     points: [
-      "Handled several younger students from my school, 1 or 2 students at a time",
-      "Managed most of their school subjects, from homework completion to exam preparation",
-      "Monitored student progress to facilitate improvement and independence",
-      "Combining the perspectives of my students and their teachers to deliver easy-to-understand lessons"
+      "Bachelors GPA: 3.92 - Masters GPA: 3.99 (current)", // CHANGE THIS GPA LATER WHEN THE SCORE COMES OUT
+      "1 conference proceeding and 1 thesis in adaptive game design", // ADD THE LINKS LATER TO THOSE PUBLICATIONS (maybe not for thesis)
+      "Experienced many programming languages: C, Java, Python, SQL, C# (Unity), HTML, etc",
+      "Consistent self-practice (Leetcode) and joining  IT Workshops (UI/UX, Mobile, etc)"
+    ],
+  },
+  {
+    title: "Full Stack Developer (Internship)",
+    company_name: "Prosia",
+    icon: prosia,
+    iconBg: "#383E56",
+    date: "Feb 2023 - Aug 2023",
+    points: [
+      "Assisted in developing the FrontEnd and BackEnd of a web application project: ",
+      "Contributed in troubleshooting bugs, creating documentation, and communicating with clients",
+      "Learnt how to manipulate databases, design UI/UX, generate reports, and more",
+      "Completed several side projects to further leverage my IT skills"
     ],
   },
   {
@@ -180,29 +193,29 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Developer (Internship)",
-    company_name: "Prosia",
-    icon: prosia,
-    iconBg: "#E6DEDD",
-    date: "Feb 2023 - Aug 2023",
+    title: "Private Tuition Teacher",
+    company_name: "Self-Employed",
+    icon: tutor,
+    iconBg: "#383E56",
+    date: "Sep 2018 - Present",
     points: [
-      "Assisted in developing the FrontEnd and BackEnd of a web application project: ",
-      "Contributed in troubleshooting bugs, creating documentation, and communicating with clients",
-      "Learnt how to manipulate databases, design UI/UX, generate reports, and more",
-      "Completed several side projects to further leverage my IT skills"
+      "Handled several younger students from my school, 1 or 2 students at a time",
+      "Managed most of their school subjects, from homework completion to exam preparation",
+      "Monitored student progress to facilitate improvement and independence",
+      "Combining the perspectives of my students and their teachers to deliver easy-to-understand lessons"
     ],
   },
   {
-    title: "Master of Information Technology",
-    company_name: "Bina Nusantara University",
-    icon: binus,
+    title: "Math Tuition Teacher",
+    company_name: "Kumon",
+    icon: kumon,
     iconBg: "#383E56",
-    date: "Sep 2020 - Feb 2025",
+    date: "Jul 2016 - Jun 2017",
     points: [
-      "Bachelors GPA: 3.92 - Masters GPA: 3.99 (current)",
-      "1 scientific journal publication and a thesis in adaptive game design",
-      "Experienced many programming languages: C, Java, Python, SQL, C# (Unity), HTML, etc",
-      "Consistent self-practice (Leetcode) and joining  IT Workshops (UI/UX, Mobile, etc)"
+      "Understood high school and even university level mathematics at only middle school",
+      "Worked with various students and other teachers, both younger and older than me",
+      "Utilized strategies to simplify and explain complex math problems",
+      "Practiced time management between being a student and a teacher"
     ],
   },
 ];
