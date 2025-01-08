@@ -150,7 +150,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2025 - Present",
     points: [
-      "A new hire. Quickly learning the skills required to be an IT consultant"
+      "Hired before graduating university, quickly learning the skills required to be an IT consultant"
     ],
   },
   {
