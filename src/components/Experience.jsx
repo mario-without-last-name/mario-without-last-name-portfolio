@@ -51,6 +51,19 @@ const ExperienceCard = ({ experience }) => (
           )}
 
 
+          {/* ICADEIS certificate presenter link */}
+          {point === "1 conference proceeding and 1 thesis, both based of adaptive game design: " && (
+            <a 
+              href="https://drive.google.com/file/d/1hfGddoQ8mgw-C3NHY_o0O2_Pi6rXWrjo/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-500"
+            >
+              <u>Certificate</u>
+            </a>
+          )}
+
+
         </li>
       ))}
     </ul>

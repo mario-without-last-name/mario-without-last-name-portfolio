@@ -150,7 +150,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2025 - Present",
     points: [
-      "Hired before graduating university, quickly learning the skills required to be an IT consultant"
+      "Hired before completing thesis. Quickly learning the skills required to be an IT consultant"
     ],
   },
   {
@@ -158,10 +158,10 @@ const experiences = [
     company_name: "Bina Nusantara University",
     icon: binus,
     iconBg: "#383E56",
-    date: "Sep 2020 - Feb 2025",
+    date: "Sep 2020 - Mar 2025",
     points: [
-      "Bachelors GPA: 3.92 - Masters GPA: 3.99 (current)", // CHANGE THIS GPA LATER WHEN THE SCORE COMES OUT
-      "1 conference proceeding and 1 thesis in adaptive game design", // ADD THE LINKS LATER TO THOSE PUBLICATIONS (maybe not for thesis)
+      "Bachelors GPA: 3.92 - Masters GPA: 3.99", // Say if this is cum laude or not later
+      "1 conference proceeding and 1 thesis, both based of adaptive game design: ",
       "Experienced many programming languages: C, Java, Python, SQL, C# (Unity), HTML, etc",
       "Consistent self-practice (Leetcode) and joining  IT Workshops (UI/UX, Mobile, etc)"
     ],
@@ -260,7 +260,7 @@ const projects = [
   {
     name: "Knight's Last Stand",
     description:
-      "A game prototype that explores how dynamic game balancing systems can automatically adjust the game's difficulty to the player's skill seamlessly in a turn-based survival roguelike.",
+      "An academic research that explores how dynamic game balancing systems can seamlessly adjust the game's difficulty to the player's skill in a chess survival roguelike.",
     tags: [
       {
         name: "unity",
