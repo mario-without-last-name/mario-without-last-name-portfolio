@@ -93,6 +93,10 @@ const services = [
 
 const technologies = [
   {
+    name: "SAP",
+    icon: sap,
+  },
+  {
     name: "Python (Deep Learning, etc)",
     icon: python,
   },
@@ -115,10 +119,6 @@ const technologies = [
   {
     name: "postgreSQL (PERN stack)",
     icon: postgresql,
-  },
-  {
-    name: "SAP",
-    icon: sap,
   },
   {
     name: "DaVinci Resolve (Video Editing)",
