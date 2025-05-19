@@ -144,13 +144,13 @@ const technologies = [
 
 const experiences = [
   {
-    title: "IT Consultant Trainee",
+    title: "SAP Consultant Trainee",
     company_name: "E-Outsource Asia",
     icon: eoutsourceasia,
     iconBg: "#383E56",
     date: "Jan 2025 - Present",
     points: [
-      "Hired before completing thesis. Quickly learning the skills required to be an IT consultant"
+      "Hired before completing thesis. Quickly learning the skills required to be an SAP consultant"
     ],
   },
   {
