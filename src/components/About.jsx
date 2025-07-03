@@ -13,6 +13,7 @@ import githubIcon from '../assets/socialmediagithub.png';
 import leetcodeIcon from '../assets/socialmedialeetcode.png';
 import youtubeIcon from '../assets/socialmediayoutube.png';
 import instagramIcon from '../assets/socialmediainstagram.png';
+import upArrowIcon from '../assets/uparrow.png';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -62,71 +63,84 @@ const About = () => {
       </p>
 
       {/* Social Media Links */}
-      <div className="flex justify-center gap-2 sm:gap-5 mb-28">
-        <div className="group relative">
-          <a href="https://www.linkedin.com/in/mario-without-last-name/" target="_blank" rel="noopener noreferrer">
-            <img 
-              src={linkedinIcon} 
-              alt="LinkedIn" 
-              className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
-            />
-          </a>
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
-            LinkedIn
+      <div className="mb-24">
+        <div className="flex justify-center gap-2 sm:gap-5 mb-1">
+          <div className="group relative">
+            <a href="https://www.linkedin.com/in/mario-without-last-name/" target="_blank" rel="noopener noreferrer">
+              <img 
+                src={linkedinIcon} 
+                alt="LinkedIn" 
+                className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
+              />
+            </a>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
+              LinkedIn
+            </div>
           </div>
+
+          <div className="group relative">
+            <a href="https://github.com/mario-without-last-name" target="_blank" rel="noopener noreferrer">
+              <img 
+                src={githubIcon} 
+                alt="GitHub" 
+                className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
+              />
+            </a>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
+              GitHub
+            </div>
+          </div>
+
+          <div className="group relative">
+            <a href="https://leetcode.com/u/mario-without-last-name/" target="_blank" rel="noopener noreferrer">
+              <img 
+                src={leetcodeIcon} 
+                alt="LeetCode" 
+                className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
+              />
+            </a>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
+              LeetCode
+            </div>
+          </div>
+
+          <div className="group relative">
+            <a href="https://www.youtube.com/@mariomario2728" target="_blank" rel="noopener noreferrer">
+              <img 
+                src={youtubeIcon} 
+                alt="Youtube" 
+                className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
+              />
+            </a>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
+              Youtube
+            </div>
+          </div>
+
+          <div className="group relative">
+            <a href="https://www.instagram.com/mario_no_last_name/?igsh=eGhsZnQ0bW84dWNy" target="_blank" rel="noopener noreferrer">
+              <img 
+                src={instagramIcon} 
+                alt="Instagram" 
+                className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
+              />
+            </a>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
+              Instagram
+            </div>
+          </div>
+
         </div>
 
-        <div className="group relative">
-          <a href="https://github.com/mario-without-last-name" target="_blank" rel="noopener noreferrer">
-            <img 
-              src={githubIcon} 
-              alt="GitHub" 
-              className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
-            />
-          </a>
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
-            GitHub
-          </div>
+        <div className="flex justify-center">
+          <img 
+            src={upArrowIcon} 
+            className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
+          />
         </div>
-
-        <div className="group relative">
-          <a href="https://leetcode.com/u/mario-without-last-name/" target="_blank" rel="noopener noreferrer">
-            <img 
-              src={leetcodeIcon} 
-              alt="LeetCode" 
-              className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
-            />
-          </a>
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
-            LeetCode
-          </div>
-        </div>
-
-        <div className="group relative">
-          <a href="https://www.youtube.com/@mariomario2728" target="_blank" rel="noopener noreferrer">
-            <img 
-              src={youtubeIcon} 
-              alt="Youtube" 
-              className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
-            />
-          </a>
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
-            Youtube
-          </div>
-        </div>
-
-        <div className="group relative">
-          <a href="https://www.instagram.com/mario_no_last_name/?igsh=eGhsZnQ0bW84dWNy" target="_blank" rel="noopener noreferrer">
-            <img 
-              src={instagramIcon} 
-              alt="Instagram" 
-              className="w-[50px] h-[50px] sm:w-[80px] sm:h-[80px] lg:w-[110px] lg:h-[110px] object-contain" 
-            />
-          </a>
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-700 text-white text-xs rounded-md p-2 mt-2 whitespace-nowrap">
-            Instagram
-          </div>
-        </div>
+        <p className='text-secondary text-[17px] leading-[20px] text-center'>
+          Over 400 LeetCode <br /> questions solved!
+        </p>
 
       </div>
 
