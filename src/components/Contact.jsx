@@ -7,6 +7,9 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc"
 import { slideIn, textVariant } from "../utils/motion"
 
+import phone from "../assets/phone.png"
+import mail from "../assets/mail.png"
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -126,11 +129,16 @@ const Contact = () => {
           <span className="block sm:hidden">My alternative contacts:</span>
           <span className="hidden sm:block">Alternatively, you can contact me at:</span>
         </p>
-        <p className="mt-2 ml-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        <p className="mt-2 text-secondary text-[17px] max-w-3xl leading-[30px] flex items-center gap-2">
+          <img src={phone} alt="Phone" className="w-5 h-5" />
           (+62) 857 7280 3076 <br/>
         </p>
-        <p className="mt-2 ml-3 text-secondary text-[17px] max-w-3xl leading-[20px]">
-          <span className="block sm:inline-block">mario.without.last.name</span><span className="block sm:inline-block">@gmail.com</span>
+        <p className="mt-2 text-secondary text-[17px] max-w-3xl leading-[20px] flex items-center gap-2">
+          <img src={mail} alt="Mail" className="w-5 h-5" />
+          <div className="gap-0">
+            <span className="block sm:inline-block">mario.without.last.name</span>
+            <span className="block sm:inline-block">@gmail.com</span>
+          </div>
         </p>
       </motion.div>
 

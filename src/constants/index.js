@@ -129,7 +129,7 @@ const technologies = [
     icon: photoshop,
   },
   {
-    name: "Git (GitHub and GitLab)",
+    name: "Git (GitHub, GitLab, BitBucket)",
     icon: git,
   },
   {
