@@ -169,7 +169,7 @@ const experiences = [
   },
   {
     title: "Full Stack Developer (Internship)",
-    company_name: "Prosia",
+    company_name: "PT Pro Sistimatika Automasi (PROSIA)",
     icon: prosia,
     iconBg: "#383E56",
     date: "Feb 2023 - Aug 2023",
