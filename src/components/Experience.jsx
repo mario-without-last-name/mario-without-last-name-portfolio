@@ -8,6 +8,8 @@ import { experiences } from "../constants"
 import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motion"
 
+import hyperlink from "../assets/hyperlink.png"
+
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{ background: '#1d1836', color: '#fff' }}
@@ -44,9 +46,10 @@ const ExperienceCard = ({ experience }) => (
               href="https://inatrade.kemendag.go.id/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-blue-500"
+              className="text-blue-500 inline-flex items-center space-x-1"
             >
-              <u>Inatrade</u>
+              <b><u>Inatrade</u></b>
+              <img src={hyperlink} alt="Hyperlink" className="w-4 h-4" />
             </a>
           )}
 
@@ -57,9 +60,10 @@ const ExperienceCard = ({ experience }) => (
               href="https://ieeexplore.ieee.org/document/10933478" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-blue-500"
+              className="text-blue-500 inline-flex items-center space-x-1"
             >
-              <u>Research Link</u>
+              <b><u>Research Link</u></b>
+              <img src={hyperlink} alt="Hyperlink" className="w-4 h-4" />
             </a>
           )}
 

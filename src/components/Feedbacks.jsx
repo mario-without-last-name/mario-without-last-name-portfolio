@@ -5,6 +5,8 @@ import { SectionWrapper } from "../hoc"
 import { fadeIn, textVariant } from "../utils/motion"
 import { testimonials } from "../constants"
 
+import hyperlink from "../assets/hyperlink.png"
+
 const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => (
   // <motion.div
   //   variants={fadeIn("", "spring", index * 0.5, 0.75)}
@@ -24,12 +26,12 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
             href="https://www.youtube.com/@MadnessMenace" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-blue-500"
+            className="text-blue-500 inline-flex items-center space-x-1"
           >
-            <u>YouTube channel</u>
+            <b><u>YouTube channel</u></b>
+            <img src={hyperlink} alt="Hyperlink" className="w-4 h-4" />
           </a>
         )}
-      .
       </p>
 
       <div className="mt-7 flex justify-between items-center gap-1">
