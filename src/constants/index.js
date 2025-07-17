@@ -163,7 +163,7 @@ const experiences = [
       "Bachelors GPA: 3.92 - Masters GPA: 3.99", // Say if this is cum laude or not later
       "1 conference proceeding and 1 thesis, both based of adaptive game design: ",
       "Experienced many programming languages: C, Java, Python, SQL, C# (Unity), HTML, etc",
-      "Consistent self-practice (Leetcode) and joining  IT Workshops (UI/UX, Mobile, etc)",
+      "Consistent self-practice (Leetcode) and joining  IT Workshops (UI/UX, SAP FICO, etc)",
       "Freshman Partner for 1 year, help freshmen transition to university life"
     ],
   },
