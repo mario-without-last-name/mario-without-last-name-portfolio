@@ -25,7 +25,7 @@ const Hero = () => {
 
           {/* Button for downloading the resume */}
           <div className="mt-4 z-10 relative">
-            <a href="https://drive.google.com/file/d/1qxo0_68VDSZRRO2UemJbRfXOuOdy41cK/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-block">
+            <a href="https://drive.google.com/file/d/1s5rNVmFUCyAvSCLbbtcynsUcGyWeXVa0/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-block">
               <button className="px-6 py-3 bg-[#915eff] text-white rounded-md hover:bg-[#7a4ed6] transition duration-300 flex items-center">
                 <img src={downloadIcon} alt="" className="w-5 h-5 mr-2"/> 
                 <span className="hidden sm:inline">Download my resume</span>
