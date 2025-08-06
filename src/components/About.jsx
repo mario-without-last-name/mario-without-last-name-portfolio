@@ -139,7 +139,7 @@ const About = () => {
           />
         </div>
         <p className='text-secondary text-[17px] leading-[20px] text-center'>
-          Over 450 LeetCode <br /> questions solved!
+          Over <b className='text-[30px]'>500</b> LeetCode <br /> questions solved!
         </p>
 
       </div>

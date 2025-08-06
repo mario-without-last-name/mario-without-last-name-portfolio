@@ -160,7 +160,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Sep 2020 - Mar 2025",
     points: [
-      "Bachelors GPA: 3.92 - Masters GPA: 3.99", // Say if this is cum laude or not later
+      "Bachelors GPA: 3.92 - Masters GPA: 3.99 (Summa Cum Laude)",
       "1 conference proceeding and 1 thesis, both based of adaptive game design: ",
       "Experienced many programming languages: C, Java, Python, SQL, C# (Unity), HTML, etc",
       "Consistent self-practice (Leetcode) and joining  IT Workshops (UI/UX, SAP FICO, etc)",
