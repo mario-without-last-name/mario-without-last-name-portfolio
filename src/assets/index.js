@@ -4,6 +4,7 @@ import teach from "./teach.png";
 import fullstack from "./fullstack.png";
 import math from "./math.png";
 import game from "./game.png";
+import sap3d from "./sap3d.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -45,6 +46,7 @@ import prosia from "./company/prosia.png";
 import btb from "./company/btb.png";
 import binus from "./company/binus.png";
 import eoutsourceasia from "./company/eoutsourceasia.png"
+import asiapulpandpaper from "./company/asiapulpandpaper.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -116,4 +118,6 @@ export {
   eoutsourceasia,
   flutter,
   sap,
+  asiapulpandpaper,
+  sap3d,
 };

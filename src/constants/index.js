@@ -51,6 +51,8 @@ import {
   eoutsourceasia,
   flutter,
   sap,
+  asiapulpandpaper,
+  sap3d,
 } from "../assets";
 
 export const navLinks = [
@@ -70,11 +72,15 @@ export const navLinks = [
 
 const services = [
   {
+    title: "SAP ABAP Developer",
+    icon: sap3d,
+  },
+  {
     title: "Logical Mathematics",
     icon: math,
   },
   {
-    title: "Full Stack Web Developer",
+    title: "Web Dev & Algorithms",
     icon: fullstack,
   },
   {
@@ -82,12 +88,12 @@ const services = [
     icon: graphic,
   },
   {
-    title: "Game Developer",
-    icon: game,
-  },
-  {
     title: "Teaching and Tutoring",
     icon: teach,
+  },
+  {
+    title: "Game Developer",
+    icon: game,
   },
 ];
 
@@ -143,16 +149,17 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "SAP Consultant Trainee",
-  //   company_name: "E-Outsource Asia",
-  //   icon: eoutsourceasia,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2025 - Present",
-  //   points: [
-  //     "Hired before completing thesis. Quickly learning the skills required to be an SAP consultant"
-  //   ],
-  // },
+  {
+    title: "SAP ABAP Tehnical Developer (Management Trainee)",
+    company_name: "Asia Pulp and Paper (APP, Sinarmas)",
+    icon: asiapulpandpaper,
+    iconBg: "#383E56",
+    date: "Sep 2025 - Present",
+    points: [
+      "Debugging, modifying, and creating SAP ABAP programs to meet the business requirements of functional analysts",
+      "Taking additional training and fulfill extra requirements to hasten the career growth as a Management Trainee"
+    ],
+  },
   {
     title: "Master of Information Technology",
     company_name: "Bina Nusantara University",
@@ -161,7 +168,8 @@ const experiences = [
     date: "Sep 2020 - Mar 2025",
     points: [
       "Bachelors GPA: 3.92 - Masters GPA: 3.99 (Summa Cum Laude)",
-      "1 conference proceeding and 1 thesis, both based of adaptive game design: ",
+      "1 conference proceeding and 1 thesis about adaptive design in chess games: ",
+      "1 journal publication about systematic literature review on dynamic game balancing: ",
       "Experienced many programming languages: C, Java, Python, SQL, C# (Unity), HTML, etc",
       "Consistent self-practice (Leetcode) and joining  IT Workshops (UI/UX, SAP FICO, etc)",
       "Freshman Partner for 1 year, help freshmen transition to university life"

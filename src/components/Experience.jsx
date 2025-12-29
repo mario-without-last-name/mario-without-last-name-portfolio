@@ -54,10 +54,24 @@ const ExperienceCard = ({ experience }) => (
           )}
 
 
-          {/* ICADEIS conference paper link */}
-          {point === "1 conference proceeding and 1 thesis, both based of adaptive game design: " && (
+          {/* ICADEIS conference (and thesis) paper link */}
+          {point === "1 conference proceeding and 1 thesis about adaptive design in chess games: " && (
             <a 
               href="https://ieeexplore.ieee.org/document/10933478" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-500 inline-flex items-center space-x-1"
+            >
+              <b><u>Research Link</u></b>
+              <img src={hyperlink} alt="Hyperlink" className="w-4 h-4" />
+            </a>
+          )}
+
+
+          {/* JOIV journal article link (systematic literature review) */}
+          {point === "1 journal publication about systematic literature review on dynamic game balancing: " && (
+            <a 
+              href="https://joiv.org/index.php/joiv/article/view/3436" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-blue-500 inline-flex items-center space-x-1"

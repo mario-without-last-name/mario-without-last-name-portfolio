@@ -89,7 +89,7 @@ const Works = () => {
           Promises and claims alone won&apos;t cut it.
           What better way to prove practical skills than to showcase actual projects?
           Here, I unveil a collection of my IT endeavors that highlight both my passion and proficiency.
-          From coding challenges to visual design, each project reflects my dedication to crafting practical and creative solutions.
+          <br/><br/>
           Explore my portfolio and discover the fusion of creativity and technical expertise.
           See more of my projects on my&nbsp;
           <a

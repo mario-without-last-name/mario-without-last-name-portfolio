@@ -153,18 +153,24 @@ const About = () => {
       <div className="w-full flex">
       {/* <motion.p
         variants={fadeIn("", "", 0.1, 1)} */}
-      <p
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        I am a versatile and driven individual with a passion for excellence in <b><u>mathematics</u></b>, <b><u>programming</u></b>, <b><u>creative design</u></b>,  <b><u>game development</u></b>, and <b><u>teaching</u></b>.
-        My portfolio reflects a journey of innovation, expertise, and a commitment to continuous growth.
-        <br/><br/>
-        With a solid foundation in Olympiad-level mathematics, I bring a unique problem-solving perspective to every challenge.
-        As a seasoned full-stack web developer, I&apos;ve honed my skills in the PERN stack through immersive internships, crafting seamless digital experiences.
-        My creative flair extends to 2D asset manipulation, adding a visually engaging touch to projects.
-        Sharing knowledge is a strnegth of mine; I take pride in mentoring and teaching subjects like mathematics and computer science to aspiring minds.
-        Finally, I challenged myself and went for a video game research for my thesis, understanding the nuances in game design along the way. 
-      </p>
+<p
+  className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+>
+  I am a versatile and driven individual with a passion for excellence in{" "}
+  <b><u>SAP ABAP</u></b>, <b><u>mathematics</u></b>,{" "}
+  <b><u>general programming</u></b>, <b><u>creative design</u></b>,{" "}
+  <b><u>teaching</u></b>, and <b><u>game development</u></b>.
+
+  <ul className="mt-8 ml-6 list-disc space-y-2">
+    <li> With effective communication, I can deliver satisfactory results as a technical developer in SAP for business analysts. </li>
+    <li> With a solid foundation in Olympiad-level mathematics, I bring a unique problem-solving perspective to every challenge. </li>
+    <li> Through immersive internship experiences, I&apos;ve crafted business-grade websites and routinely sharpen my algorithmic thinking skills with Python. </li>
+    <li> My creative flair extends to 2D asset manipulation, adding a visually engaging touch to projects. </li>
+    <li> Sharing knowledge is a strength of mine; I take pride in mentoring and teaching subjects like mathematics and computer science to aspiring minds. </li>
+    <li> Finally, I challenged myself by conducting video game research for my thesis, gaining a deep understanding of game design nuances along the way. </li>
+  </ul>
+</p>
+
       {/* </motion.p> */}
       </div>
 
