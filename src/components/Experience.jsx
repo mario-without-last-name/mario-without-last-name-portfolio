@@ -40,7 +40,7 @@ const ExperienceCard = ({ experience }) => (
           {point}
 
 
-          {/* Special: add a text for Inatrade link */}
+          {/* Inatrade link */}
           {point === "Assisted in developing the FrontEnd and BackEnd of a web application project: " && (
             <a 
               href="https://inatrade.kemendag.go.id/" 
@@ -81,6 +81,19 @@ const ExperienceCard = ({ experience }) => (
             </a>
           )}
 
+
+          {/* Coursera - IBM IT Project Manager */}
+          {point === "Earned a course certification in: " && (
+            <a 
+              href="https://www.coursera.org/account/accomplishments/professional-cert/17BJOIKE3TWZ" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-500 inline-flex items-center space-x-1"
+            >
+              <b><u>IBM IT Project Manager</u></b>
+              <img src={hyperlink} alt="Hyperlink" className="w-4 h-4" />
+            </a>
+          )}
 
         </li>
       ))}

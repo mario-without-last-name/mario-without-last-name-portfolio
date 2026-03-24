@@ -157,7 +157,7 @@ const experiences = [
     date: "Sep 2025 - Present",
     points: [
       "Debugging, modifying, and creating SAP ABAP programs to meet the business requirements of functional analysts",
-      "Taking additional training and fulfill extra requirements to hasten the career growth as a Management Trainee"
+      "Earned a course certification in: "
     ],
   },
   {
